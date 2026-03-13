@@ -1,4 +1,4 @@
-# 📧 Android Email App
+# IntentMail – Android Email Dispatcher
 
 A simple Android application that allows users to compose and send emails using any installed email client on their device.
 
