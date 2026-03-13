@@ -111,6 +111,6 @@ startActivity(Intent.createChooser(emailIntent, "Choose Email App"));
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source and available for personal and educational use.
