@@ -4,13 +4,13 @@ A simple Android application that allows users to compose and send emails using 
 
 ---
 
-## 📋 Overview
+## Overview
 
 This app provides a clean, minimal interface for composing emails. It collects a recipient address, subject, and message body, then delegates the actual sending to any email app installed on the user's Android device (e.g., Gmail, Outlook, etc.) via an Android Intent.
 
 ---
 
-## ✨ Features
+## Features
 
 - Input fields for **To**, **Subject**, and **Message**
 - **Validation** — alerts the user if any field is left empty
@@ -19,7 +19,7 @@ This app provides a clean, minimal interface for composing emails. It collects a
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component        | Details                        |
 |------------------|-------------------------------|
@@ -30,7 +30,7 @@ This app provides a clean, minimal interface for composing emails. It collects a
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 com.example.emailapp/
@@ -43,7 +43,7 @@ AndroidManifest.xml             # App configuration and activity declaration
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ AndroidManifest.xml             # App configuration and activity declaration
 
 ---
 
-## 📱 How It Works
+## How It Works
 
 1. The user fills in the **recipient email address**, **subject**, and **message**.
 2. On tapping **Send**, the app validates that no fields are empty.
@@ -81,7 +81,7 @@ startActivity(Intent.createChooser(emailIntent, "Choose Email App"));
 
 ---
 
-## ⚠️ Error Handling
+## Error Handling
 
 | Scenario                     | Behavior                                      |
 |------------------------------|-----------------------------------------------|
@@ -93,7 +93,7 @@ startActivity(Intent.createChooser(emailIntent, "Choose Email App"));
 
 ---
 
-## 📄 Manifest Highlights
+## Manifest Highlights
 
 - The app uses `Theme.MaterialComponents.DayNight.DarkActionBar` for Material Design support.
 - `MainActivity` is set as the launcher activity via `android.intent.action.MAIN`.
@@ -101,7 +101,7 @@ startActivity(Intent.createChooser(emailIntent, "Choose Email App"));
 
 ---
 
-## 🔮 Possible Enhancements
+## Possible Enhancements
 
 - Add email format validation (e.g., check for `@` and `.`)
 - Support multiple recipients (CC / BCC fields)
